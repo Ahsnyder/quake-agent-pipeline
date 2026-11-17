@@ -1,0 +1,4 @@
+{"author": "IngestAgent", "timestamp": 1794932073.241364, "message": "Ingested 1789 records.", "state_keys": ["provenance", "raw_path"]}
+{"author": "TransformAgent", "timestamp": 1794932073.267009, "message": "Retained 286 events; excluded 0 invalid records.", "state_keys": ["processed_path", "quality"]}
+{"author": "VisualizeAgent", "timestamp": 1794932073.2690017, "message": "Built a self-contained HTML dashboard.", "state_keys": ["dashboard_path"]}
+{"author": "StoreAgent", "timestamp": 1794932073.2720125, "message": "Local preview saved; no cloud upload performed.", "state_keys": ["manifest"]}

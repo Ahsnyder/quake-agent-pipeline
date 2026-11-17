@@ -1,0 +1,40 @@
+{
+  "status": "local_preview",
+  "cloud_storage_used": false,
+  "provenance": {
+    "run_id": "20261117T161432Z-1996711e911f",
+    "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson",
+    "source_kind": "Live API",
+    "retrieved_at_utc": "2026-11-17T16:14:33.241364+00:00",
+    "feed_generated_ms": 1794932068000,
+    "raw_sha256": "3893752c5e51ac66310a92126ffa288c7bf7ce0684fa601303123aa232bdf1be"
+  },
+  "quality": {
+    "input_records": 1789,
+    "invalid": 0,
+    "non_earthquake": 133,
+    "duplicates": 0,
+    "below_threshold": 1370,
+    "retained": 286
+  },
+  "artifacts": [
+    {
+      "file": "raw.geojson",
+      "sha256": "3893752c5e51ac66310a92126ffa288c7bf7ce0684fa601303123aa232bdf1be",
+      "bytes": 1271730,
+      "content_type": "application/geo+json"
+    },
+    {
+      "file": "processed.json",
+      "sha256": "a97100f0a5b243906b431a56a4c2cb2034a922105ba19e2ed46df733345b2561",
+      "bytes": 95181,
+      "content_type": "application/json"
+    },
+    {
+      "file": "index.html",
+      "sha256": "6a0a973a53744c07f1a3a4b4dbeef305dbfde917d48e1a139b8f52fe8a77ca1a",
+      "bytes": 10173,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ]
+}
